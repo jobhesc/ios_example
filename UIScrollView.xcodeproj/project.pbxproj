@@ -1,0 +1,1605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE8855B71B7072DA00B883F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8855B61B7072DA00B883F0 /* main.m */; };
+		CE8855BA1B7072DA00B883F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8855B91B7072DA00B883F0 /* AppDelegate.m */; };
+		CE8855BD1B7072DA00B883F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8855BC1B7072DA00B883F0 /* ViewController.m */; };
+		CE8855C01B7072DA00B883F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8855BE1B7072DA00B883F0 /* Main.storyboard */; };
+		CE8855C21B7072DA00B883F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8855C11B7072DA00B883F0 /* Images.xcassets */; };
+		CE8855C51B7072DA00B883F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8855C31B7072DA00B883F0 /* LaunchScreen.xib */; };
+		CE8855D11B7072DA00B883F0 /* UIScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8855D01B7072DA00B883F0 /* UIScrollViewTests.m */; };
+		CE8855DB1B70748200B883F0 /* image01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE8855DA1B70748200B883F0 /* image01.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE4803A11B7842B400CEEB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4803981B7842B300CEEB6D /* UIModalController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE48036F1B7842B300CEEB6D;
+			remoteInfo = UIModalController;
+		};
+		CE4803A31B7842B400CEEB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4803981B7842B300CEEB6D /* UIModalController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE4803881B7842B300CEEB6D;
+			remoteInfo = UIModalControllerTests;
+		};
+		CE4803EA1B79AA3F00CEEB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4803E51B79AA3F00CEEB6D /* TouchEventController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE4803BC1B79AA3F00CEEB6D;
+			remoteInfo = TouchEventController;
+		};
+		CE4803EC1B79AA3F00CEEB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4803E51B79AA3F00CEEB6D /* TouchEventController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE4803D51B79AA3F00CEEB6D;
+			remoteInfo = TouchEventControllerTests;
+		};
+		CE48042A1B79CFE800CEEB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4804251B79CFE700CEEB6D /* GestureRecognizer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE4803FC1B79CFE700CEEB6D;
+			remoteInfo = GestureRecognizer;
+		};
+		CE48042C1B79CFE800CEEB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4804251B79CFE700CEEB6D /* GestureRecognizer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE4804151B79CFE700CEEB6D;
+			remoteInfo = GestureRecognizerTests;
+		};
+		CE48046B1B79E74E00CEEB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4804661B79E74D00CEEB6D /* MotionEvent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE48043D1B79E74D00CEEB6D;
+			remoteInfo = MotionEvent;
+		};
+		CE48046D1B79E74E00CEEB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4804661B79E74D00CEEB6D /* MotionEvent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE4804561B79E74D00CEEB6D;
+			remoteInfo = MotionEventTests;
+		};
+		CE4804AF1B79EF8200CEEB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4804AA1B79EF8100CEEB6D /* Quartz2D.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE4804811B79EF8100CEEB6D;
+			remoteInfo = Quartz2D;
+		};
+		CE4804B11B79EF8200CEEB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4804AA1B79EF8100CEEB6D /* Quartz2D.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE48049A1B79EF8100CEEB6D;
+			remoteInfo = Quartz2DTests;
+		};
+		CE4804EF1B7B42E300CEEB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4804EA1B7B42E200CEEB6D /* CoreImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE4804C11B7B42E200CEEB6D;
+			remoteInfo = CoreImage;
+		};
+		CE4804F11B7B42E300CEEB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4804EA1B7B42E200CEEB6D /* CoreImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE4804DA1B7B42E200CEEB6D;
+			remoteInfo = CoreImageTests;
+		};
+		CE7A3D371B8561D900FC9E4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7A3D141B8561D900FC9E4A /* NSURLSession.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE7A3CEB1B8561D800FC9E4A;
+			remoteInfo = NSURLSession;
+		};
+		CE7A3D391B8561D900FC9E4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7A3D141B8561D900FC9E4A /* NSURLSession.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE7A3D041B8561D900FC9E4A;
+			remoteInfo = NSURLSessionTests;
+		};
+		CE8855CB1B7072DA00B883F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8855A91B7072DA00B883F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE8855B01B7072DA00B883F0;
+			remoteInfo = UIScrollView;
+		};
+		CE8856131B71E30800B883F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE88560E1B71E30700B883F0 /* Banner.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE8855E51B71E30700B883F0;
+			remoteInfo = Banner;
+		};
+		CE8856151B71E30800B883F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE88560E1B71E30700B883F0 /* Banner.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE8855FE1B71E30700B883F0;
+			remoteInfo = BannerTests;
+		};
+		CE88565C1B7328EA00B883F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8856571B7328E900B883F0 /* UITableView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE88562E1B7328E900B883F0;
+			remoteInfo = UITableView;
+		};
+		CE88565E1B7328EA00B883F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8856571B7328E900B883F0 /* UITableView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE8856471B7328E900B883F0;
+			remoteInfo = UITableViewTests;
+		};
+		CEAB07531B7F3E1D002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB074A1B7F3E1C002C57CE /* CircleImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAB07211B7F3E1C002C57CE;
+			remoteInfo = CircleImage;
+		};
+		CEAB07551B7F3E1D002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB074A1B7F3E1C002C57CE /* CircleImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAB073A1B7F3E1C002C57CE;
+			remoteInfo = CircleImageTests;
+		};
+		CEAB07761B7F42D3002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB07711B7F42D3002C57CE /* CALayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE4804FE1B7B5E4500CEEB6D;
+			remoteInfo = CALayer;
+		};
+		CEAB07781B7F42D3002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB07711B7F42D3002C57CE /* CALayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE4805171B7B5E4500CEEB6D;
+			remoteInfo = CALayerTests;
+		};
+		CEAB07B11B7F69E1002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB07AC1B7F69E0002C57CE /* CustomLayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAB07831B7F69E0002C57CE;
+			remoteInfo = CustomLayer;
+		};
+		CEAB07B31B7F69E1002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB07AC1B7F69E0002C57CE /* CustomLayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAB079C1B7F69E0002C57CE;
+			remoteInfo = CustomLayerTests;
+		};
+		CEAB082D1B7F7681002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB08281B7F7681002C57CE /* SnowAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAB07FF1B7F7680002C57CE;
+			remoteInfo = SnowAnimation;
+		};
+		CEAB082F1B7F7681002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB08281B7F7681002C57CE /* SnowAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAB08181B7F7681002C57CE;
+			remoteInfo = SnowAnimationTests;
+		};
+		CEAB086C1B802DAB002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB08671B802DAA002C57CE /* TransitionAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAB083E1B802DAA002C57CE;
+			remoteInfo = TransitionAnimation;
+		};
+		CEAB086E1B802DAB002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB08671B802DAA002C57CE /* TransitionAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAB08571B802DAA002C57CE;
+			remoteInfo = TransitionAnimationTests;
+		};
+		CEAB08B31B804CFF002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB08AE1B804CFE002C57CE /* BoundAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAB08851B804CFE002C57CE;
+			remoteInfo = BoundAnimation;
+		};
+		CEAB08B51B804CFF002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB08AE1B804CFE002C57CE /* BoundAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAB089E1B804CFE002C57CE;
+			remoteInfo = BoundAnimationTests;
+		};
+		CEAB08EE1B805993002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB08E91B805992002C57CE /* NSThread.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAB08C01B805992002C57CE;
+			remoteInfo = NSThread;
+		};
+		CEAB08F01B805993002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB08E91B805992002C57CE /* NSThread.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAB08D91B805992002C57CE;
+			remoteInfo = NSThreadTests;
+		};
+		CEAB09291B80D05E002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB09241B80D05D002C57CE /* NSThread2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAB08FB1B80D05D002C57CE;
+			remoteInfo = NSThread2;
+		};
+		CEAB092B1B80D05E002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB09241B80D05D002C57CE /* NSThread2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAB09141B80D05D002C57CE;
+			remoteInfo = NSThread2Tests;
+		};
+		CEAB09641B80DD75002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB095F1B80DD74002C57CE /* NSOperation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAB09361B80DD73002C57CE;
+			remoteInfo = NSOperation;
+		};
+		CEAB09661B80DD75002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB095F1B80DD74002C57CE /* NSOperation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAB094F1B80DD74002C57CE;
+			remoteInfo = NSOperationTests;
+		};
+		CEAB099F1B80E8BA002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB099A1B80E8B9002C57CE /* GCD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAB09711B80E8B9002C57CE;
+			remoteInfo = GCD;
+		};
+		CEAB09A11B80E8BA002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB099A1B80E8B9002C57CE /* GCD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAB098A1B80E8B9002C57CE;
+			remoteInfo = GCDTests;
+		};
+		CECCED741B76EC7800C3C9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECCED6F1B76EC7700C3C9F8 /* CustomTableViewCell.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CECCED461B76EC7700C3C9F8;
+			remoteInfo = CustomTableViewCell;
+		};
+		CECCED761B76EC7800C3C9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECCED6F1B76EC7700C3C9F8 /* CustomTableViewCell.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CECCED5F1B76EC7700C3C9F8;
+			remoteInfo = CustomTableViewCellTests;
+		};
+		CECCEDF71B7781B700C3C9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECCEDF21B7781B600C3C9F8 /* UITabBarController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CECCEDC61B7781B600C3C9F8;
+			remoteInfo = UITabBarController;
+		};
+		CECCEDF91B7781B700C3C9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECCEDF21B7781B600C3C9F8 /* UITabBarController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CECCEDE21B7781B600C3C9F8;
+			remoteInfo = UITabBarControllerTests;
+		};
+		CECCEE451B779CF200C3C9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECCEE401B779CF100C3C9F8 /* UINavigationController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CECCEE171B779CF100C3C9F8;
+			remoteInfo = UINavigationController;
+		};
+		CECCEE471B779CF200C3C9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECCEE401B779CF100C3C9F8 /* UINavigationController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CECCEE301B779CF100C3C9F8;
+			remoteInfo = UINavigationControllerTests;
+		};
+		CECCEE891B77A6D100C3C9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECCEE841B77A6D000C3C9F8 /* UINavigationControllerWithStoryboard.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CECCEE5B1B77A6D000C3C9F8;
+			remoteInfo = UINavigationControllerWithStoryboard;
+		};
+		CECCEE8B1B77A6D100C3C9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECCEE841B77A6D000C3C9F8 /* UINavigationControllerWithStoryboard.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CECCEE741B77A6D000C3C9F8;
+			remoteInfo = UINavigationControllerWithStoryboardTests;
+		};
+		CED965EE1B8DCEAF00D80D76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED965CB1B8DCEAE00D80D76 /* NSURLConnection.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CED965A21B8DCEAE00D80D76;
+			remoteInfo = NSURLConnection;
+		};
+		CED965F01B8DCEAF00D80D76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED965CB1B8DCEAE00D80D76 /* NSURLConnection.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CED965BB1B8DCEAE00D80D76;
+			remoteInfo = NSURLConnectionTests;
+		};
+		CED9663D1B8EA70500D80D76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED966381B8EA70400D80D76 /* UIActivityIndicatorView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CED9660F1B8EA70400D80D76;
+			remoteInfo = UIActivityIndicatorView;
+		};
+		CED9663F1B8EA70500D80D76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED966381B8EA70400D80D76 /* UIActivityIndicatorView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CED966281B8EA70400D80D76;
+			remoteInfo = UIActivityIndicatorViewTests;
+		};
+		CEF96A5D1B818BE400E55FFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF96A441B818BE300E55FFA /* NSCondition.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEF96A1B1B818BE200E55FFA;
+			remoteInfo = NSCondition;
+		};
+		CEF96A5F1B818BE400E55FFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF96A441B818BE300E55FFA /* NSCondition.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEF96A341B818BE300E55FFA;
+			remoteInfo = NSConditionTests;
+		};
+		CEF96AB01B81F2B400E55FFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF96AAB1B81F2B300E55FFA /* loadFile.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEF96A821B81F2B300E55FFA;
+			remoteInfo = loadFile;
+		};
+		CEF96AB21B81F2B400E55FFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF96AAB1B81F2B300E55FFA /* loadFile.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEF96A9B1B81F2B300E55FFA;
+			remoteInfo = loadFileTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE4803981B7842B300CEEB6D /* UIModalController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIModalController.xcodeproj; path = UIModalController/UIModalController.xcodeproj; sourceTree = "<group>"; };
+		CE4803E51B79AA3F00CEEB6D /* TouchEventController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TouchEventController.xcodeproj; path = TouchEventController/TouchEventController.xcodeproj; sourceTree = "<group>"; };
+		CE4804251B79CFE700CEEB6D /* GestureRecognizer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GestureRecognizer.xcodeproj; path = GestureRecognizer/GestureRecognizer.xcodeproj; sourceTree = "<group>"; };
+		CE4804661B79E74D00CEEB6D /* MotionEvent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MotionEvent.xcodeproj; path = MotionEvent/MotionEvent.xcodeproj; sourceTree = "<group>"; };
+		CE4804AA1B79EF8100CEEB6D /* Quartz2D.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quartz2D.xcodeproj; path = Quartz2D/Quartz2D.xcodeproj; sourceTree = "<group>"; };
+		CE4804EA1B7B42E200CEEB6D /* CoreImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CoreImage.xcodeproj; path = CoreImage/CoreImage.xcodeproj; sourceTree = "<group>"; };
+		CE7A3D141B8561D900FC9E4A /* NSURLSession.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NSURLSession.xcodeproj; path = NSURLSession/NSURLSession.xcodeproj; sourceTree = "<group>"; };
+		CE8855B11B7072DA00B883F0 /* UIScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8855B51B7072DA00B883F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8855B61B7072DA00B883F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE8855B81B7072DA00B883F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE8855B91B7072DA00B883F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE8855BB1B7072DA00B883F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE8855BC1B7072DA00B883F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE8855BF1B7072DA00B883F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE8855C11B7072DA00B883F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE8855C41B7072DA00B883F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CE8855CA1B7072DA00B883F0 /* UIScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8855CF1B7072DA00B883F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8855D01B7072DA00B883F0 /* UIScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewTests.m; sourceTree = "<group>"; };
+		CE8855DA1B70748200B883F0 /* image01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image01.jpg; path = ../../../../../Downloads/image01.jpg; sourceTree = "<group>"; };
+		CE88560E1B71E30700B883F0 /* Banner.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Banner.xcodeproj; path = Banner/Banner.xcodeproj; sourceTree = "<group>"; };
+		CE8856571B7328E900B883F0 /* UITableView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UITableView.xcodeproj; path = UITableView/UITableView.xcodeproj; sourceTree = "<group>"; };
+		CEAB074A1B7F3E1C002C57CE /* CircleImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CircleImage.xcodeproj; path = CircleImage/CircleImage.xcodeproj; sourceTree = "<group>"; };
+		CEAB07711B7F42D3002C57CE /* CALayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CALayer.xcodeproj; path = CALayer/CALayer.xcodeproj; sourceTree = "<group>"; };
+		CEAB07AC1B7F69E0002C57CE /* CustomLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CustomLayer.xcodeproj; path = CustomLayer/CustomLayer.xcodeproj; sourceTree = "<group>"; };
+		CEAB08281B7F7681002C57CE /* SnowAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnowAnimation.xcodeproj; path = SnowAnimation/SnowAnimation.xcodeproj; sourceTree = "<group>"; };
+		CEAB08671B802DAA002C57CE /* TransitionAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TransitionAnimation.xcodeproj; path = TransitionAnimation/TransitionAnimation.xcodeproj; sourceTree = "<group>"; };
+		CEAB08AE1B804CFE002C57CE /* BoundAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BoundAnimation.xcodeproj; path = BoundAnimation/BoundAnimation.xcodeproj; sourceTree = "<group>"; };
+		CEAB08E91B805992002C57CE /* NSThread.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NSThread.xcodeproj; path = NSThread/NSThread.xcodeproj; sourceTree = "<group>"; };
+		CEAB09241B80D05D002C57CE /* NSThread2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NSThread2.xcodeproj; path = NSThread2/NSThread2.xcodeproj; sourceTree = "<group>"; };
+		CEAB095F1B80DD74002C57CE /* NSOperation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NSOperation.xcodeproj; path = NSOperation/NSOperation.xcodeproj; sourceTree = "<group>"; };
+		CEAB099A1B80E8B9002C57CE /* GCD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GCD.xcodeproj; path = GCD/GCD.xcodeproj; sourceTree = "<group>"; };
+		CECCED6F1B76EC7700C3C9F8 /* CustomTableViewCell.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CustomTableViewCell.xcodeproj; path = CustomTableViewCell/CustomTableViewCell.xcodeproj; sourceTree = "<group>"; };
+		CECCEDF21B7781B600C3C9F8 /* UITabBarController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UITabBarController.xcodeproj; path = UITabBarController/UITabBarController.xcodeproj; sourceTree = "<group>"; };
+		CECCEE401B779CF100C3C9F8 /* UINavigationController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UINavigationController.xcodeproj; path = UINavigationController/UINavigationController.xcodeproj; sourceTree = "<group>"; };
+		CECCEE841B77A6D000C3C9F8 /* UINavigationControllerWithStoryboard.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UINavigationControllerWithStoryboard.xcodeproj; path = UINavigationControllerWithStoryboard/UINavigationControllerWithStoryboard.xcodeproj; sourceTree = "<group>"; };
+		CED965CB1B8DCEAE00D80D76 /* NSURLConnection.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NSURLConnection.xcodeproj; path = NSURLConnection/NSURLConnection.xcodeproj; sourceTree = "<group>"; };
+		CED966381B8EA70400D80D76 /* UIActivityIndicatorView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIActivityIndicatorView.xcodeproj; path = UIActivityIndicatorView/UIActivityIndicatorView.xcodeproj; sourceTree = "<group>"; };
+		CEF96A441B818BE300E55FFA /* NSCondition.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NSCondition.xcodeproj; path = NSCondition/NSCondition.xcodeproj; sourceTree = "<group>"; };
+		CEF96AAB1B81F2B300E55FFA /* loadFile.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = loadFile.xcodeproj; path = loadFile/loadFile.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8855AE1B7072DA00B883F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8855C71B7072DA00B883F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE4803991B7842B300CEEB6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE4803A21B7842B400CEEB6D /* UIModalController.app */,
+				CE4803A41B7842B400CEEB6D /* UIModalControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE4803E61B79AA3F00CEEB6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE4803EB1B79AA3F00CEEB6D /* TouchEventController.app */,
+				CE4803ED1B79AA3F00CEEB6D /* TouchEventControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE4804261B79CFE700CEEB6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE48042B1B79CFE800CEEB6D /* GestureRecognizer.app */,
+				CE48042D1B79CFE800CEEB6D /* GestureRecognizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE4804671B79E74D00CEEB6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE48046C1B79E74E00CEEB6D /* MotionEvent.app */,
+				CE48046E1B79E74E00CEEB6D /* MotionEventTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE4804AB1B79EF8100CEEB6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE4804B01B79EF8200CEEB6D /* Quartz2D.app */,
+				CE4804B21B79EF8200CEEB6D /* Quartz2DTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE4804EB1B7B42E200CEEB6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE4804F01B7B42E300CEEB6D /* CoreImage.app */,
+				CE4804F21B7B42E300CEEB6D /* CoreImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7A3D151B8561D900FC9E4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A3D381B8561D900FC9E4A /* NSURLSession.app */,
+				CE7A3D3A1B8561D900FC9E4A /* NSURLSessionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8855A81B7072DA00B883F0 = {
+			isa = PBXGroup;
+			children = (
+				CED966381B8EA70400D80D76 /* UIActivityIndicatorView.xcodeproj */,
+				CED965CB1B8DCEAE00D80D76 /* NSURLConnection.xcodeproj */,
+				CE7A3D141B8561D900FC9E4A /* NSURLSession.xcodeproj */,
+				CEF96AAB1B81F2B300E55FFA /* loadFile.xcodeproj */,
+				CEF96A441B818BE300E55FFA /* NSCondition.xcodeproj */,
+				CEAB099A1B80E8B9002C57CE /* GCD.xcodeproj */,
+				CEAB095F1B80DD74002C57CE /* NSOperation.xcodeproj */,
+				CEAB09241B80D05D002C57CE /* NSThread2.xcodeproj */,
+				CEAB08E91B805992002C57CE /* NSThread.xcodeproj */,
+				CEAB08AE1B804CFE002C57CE /* BoundAnimation.xcodeproj */,
+				CEAB08671B802DAA002C57CE /* TransitionAnimation.xcodeproj */,
+				CEAB08281B7F7681002C57CE /* SnowAnimation.xcodeproj */,
+				CEAB07AC1B7F69E0002C57CE /* CustomLayer.xcodeproj */,
+				CEAB07711B7F42D3002C57CE /* CALayer.xcodeproj */,
+				CEAB074A1B7F3E1C002C57CE /* CircleImage.xcodeproj */,
+				CE4804EA1B7B42E200CEEB6D /* CoreImage.xcodeproj */,
+				CE4804AA1B79EF8100CEEB6D /* Quartz2D.xcodeproj */,
+				CE4804661B79E74D00CEEB6D /* MotionEvent.xcodeproj */,
+				CE4804251B79CFE700CEEB6D /* GestureRecognizer.xcodeproj */,
+				CE4803E51B79AA3F00CEEB6D /* TouchEventController.xcodeproj */,
+				CE4803981B7842B300CEEB6D /* UIModalController.xcodeproj */,
+				CECCEE841B77A6D000C3C9F8 /* UINavigationControllerWithStoryboard.xcodeproj */,
+				CECCEE401B779CF100C3C9F8 /* UINavigationController.xcodeproj */,
+				CECCEDF21B7781B600C3C9F8 /* UITabBarController.xcodeproj */,
+				CECCED6F1B76EC7700C3C9F8 /* CustomTableViewCell.xcodeproj */,
+				CE8856571B7328E900B883F0 /* UITableView.xcodeproj */,
+				CE88560E1B71E30700B883F0 /* Banner.xcodeproj */,
+				CE8855B31B7072DA00B883F0 /* UIScrollView */,
+				CE8855CD1B7072DA00B883F0 /* UIScrollViewTests */,
+				CE8855B21B7072DA00B883F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8855B21B7072DA00B883F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8855B11B7072DA00B883F0 /* UIScrollView.app */,
+				CE8855CA1B7072DA00B883F0 /* UIScrollViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8855B31B7072DA00B883F0 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				CE8855DA1B70748200B883F0 /* image01.jpg */,
+				CE8855B81B7072DA00B883F0 /* AppDelegate.h */,
+				CE8855B91B7072DA00B883F0 /* AppDelegate.m */,
+				CE8855BB1B7072DA00B883F0 /* ViewController.h */,
+				CE8855BC1B7072DA00B883F0 /* ViewController.m */,
+				CE8855BE1B7072DA00B883F0 /* Main.storyboard */,
+				CE8855C11B7072DA00B883F0 /* Images.xcassets */,
+				CE8855C31B7072DA00B883F0 /* LaunchScreen.xib */,
+				CE8855B41B7072DA00B883F0 /* Supporting Files */,
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		CE8855B41B7072DA00B883F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE8855B51B7072DA00B883F0 /* Info.plist */,
+				CE8855B61B7072DA00B883F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE8855CD1B7072DA00B883F0 /* UIScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE8855D01B7072DA00B883F0 /* UIScrollViewTests.m */,
+				CE8855CE1B7072DA00B883F0 /* Supporting Files */,
+			);
+			path = UIScrollViewTests;
+			sourceTree = "<group>";
+		};
+		CE8855CE1B7072DA00B883F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE8855CF1B7072DA00B883F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE88560F1B71E30700B883F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8856141B71E30800B883F0 /* Banner.app */,
+				CE8856161B71E30800B883F0 /* BannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8856581B7328E900B883F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE88565D1B7328EA00B883F0 /* UITableView.app */,
+				CE88565F1B7328EA00B883F0 /* UITableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAB074B1B7F3E1C002C57CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB07541B7F3E1D002C57CE /* CircleImage.app */,
+				CEAB07561B7F3E1D002C57CE /* CircleImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAB07721B7F42D3002C57CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB07771B7F42D3002C57CE /* CALayer.app */,
+				CEAB07791B7F42D3002C57CE /* CALayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAB07AD1B7F69E0002C57CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB07B21B7F69E1002C57CE /* CustomLayer.app */,
+				CEAB07B41B7F69E1002C57CE /* CustomLayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAB08291B7F7681002C57CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB082E1B7F7681002C57CE /* SnowAnimation.app */,
+				CEAB08301B7F7681002C57CE /* SnowAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAB08681B802DAA002C57CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB086D1B802DAB002C57CE /* TransitionAnimation.app */,
+				CEAB086F1B802DAB002C57CE /* TransitionAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAB08AF1B804CFE002C57CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB08B41B804CFF002C57CE /* BoundAnimation.app */,
+				CEAB08B61B804CFF002C57CE /* BoundAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAB08EA1B805992002C57CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB08EF1B805993002C57CE /* NSThread.app */,
+				CEAB08F11B805993002C57CE /* NSThreadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAB09251B80D05D002C57CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB092A1B80D05E002C57CE /* NSThread2.app */,
+				CEAB092C1B80D05E002C57CE /* NSThread2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAB09601B80DD74002C57CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB09651B80DD75002C57CE /* NSOperation.app */,
+				CEAB09671B80DD75002C57CE /* NSOperationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAB099B1B80E8B9002C57CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB09A01B80E8BA002C57CE /* GCD.app */,
+				CEAB09A21B80E8BA002C57CE /* GCDTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECCED701B76EC7700C3C9F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECCED751B76EC7800C3C9F8 /* CustomTableViewCell.app */,
+				CECCED771B76EC7800C3C9F8 /* CustomTableViewCellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECCEDF31B7781B600C3C9F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECCEDF81B7781B700C3C9F8 /* UITabBarController.app */,
+				CECCEDFA1B7781B700C3C9F8 /* UITabBarControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECCEE411B779CF100C3C9F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECCEE461B779CF200C3C9F8 /* UINavigationController.app */,
+				CECCEE481B779CF200C3C9F8 /* UINavigationControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECCEE851B77A6D000C3C9F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECCEE8A1B77A6D100C3C9F8 /* UINavigationControllerWithStoryboard.app */,
+				CECCEE8C1B77A6D100C3C9F8 /* UINavigationControllerWithStoryboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED965CC1B8DCEAE00D80D76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED965EF1B8DCEAF00D80D76 /* NSURLConnection.app */,
+				CED965F11B8DCEAF00D80D76 /* NSURLConnectionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED966391B8EA70400D80D76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED9663E1B8EA70500D80D76 /* UIActivityIndicatorView.app */,
+				CED966401B8EA70500D80D76 /* UIActivityIndicatorViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF96A451B818BE300E55FFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF96A5E1B818BE400E55FFA /* NSCondition.app */,
+				CEF96A601B818BE400E55FFA /* NSConditionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF96AAC1B81F2B300E55FFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF96AB11B81F2B400E55FFA /* loadFile.app */,
+				CEF96AB31B81F2B400E55FFA /* loadFileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8855B01B7072DA00B883F0 /* UIScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8855D41B7072DA00B883F0 /* Build configuration list for PBXNativeTarget "UIScrollView" */;
+			buildPhases = (
+				CE8855AD1B7072DA00B883F0 /* Sources */,
+				CE8855AE1B7072DA00B883F0 /* Frameworks */,
+				CE8855AF1B7072DA00B883F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIScrollView;
+			productName = UIScrollView;
+			productReference = CE8855B11B7072DA00B883F0 /* UIScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE8855C91B7072DA00B883F0 /* UIScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8855D71B7072DA00B883F0 /* Build configuration list for PBXNativeTarget "UIScrollViewTests" */;
+			buildPhases = (
+				CE8855C61B7072DA00B883F0 /* Sources */,
+				CE8855C71B7072DA00B883F0 /* Frameworks */,
+				CE8855C81B7072DA00B883F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8855CC1B7072DA00B883F0 /* PBXTargetDependency */,
+			);
+			name = UIScrollViewTests;
+			productName = UIScrollViewTests;
+			productReference = CE8855CA1B7072DA00B883F0 /* UIScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8855A91B7072DA00B883F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = hesc;
+				TargetAttributes = {
+					CE8855B01B7072DA00B883F0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CE8855C91B7072DA00B883F0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CE8855B01B7072DA00B883F0;
+					};
+				};
+			};
+			buildConfigurationList = CE8855AC1B7072DA00B883F0 /* Build configuration list for PBXProject "UIScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE8855A81B7072DA00B883F0;
+			productRefGroup = CE8855B21B7072DA00B883F0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CE88560F1B71E30700B883F0 /* Products */;
+					ProjectRef = CE88560E1B71E30700B883F0 /* Banner.xcodeproj */;
+				},
+				{
+					ProductGroup = CEAB08AF1B804CFE002C57CE /* Products */;
+					ProjectRef = CEAB08AE1B804CFE002C57CE /* BoundAnimation.xcodeproj */;
+				},
+				{
+					ProductGroup = CEAB07721B7F42D3002C57CE /* Products */;
+					ProjectRef = CEAB07711B7F42D3002C57CE /* CALayer.xcodeproj */;
+				},
+				{
+					ProductGroup = CEAB074B1B7F3E1C002C57CE /* Products */;
+					ProjectRef = CEAB074A1B7F3E1C002C57CE /* CircleImage.xcodeproj */;
+				},
+				{
+					ProductGroup = CE4804EB1B7B42E200CEEB6D /* Products */;
+					ProjectRef = CE4804EA1B7B42E200CEEB6D /* CoreImage.xcodeproj */;
+				},
+				{
+					ProductGroup = CEAB07AD1B7F69E0002C57CE /* Products */;
+					ProjectRef = CEAB07AC1B7F69E0002C57CE /* CustomLayer.xcodeproj */;
+				},
+				{
+					ProductGroup = CECCED701B76EC7700C3C9F8 /* Products */;
+					ProjectRef = CECCED6F1B76EC7700C3C9F8 /* CustomTableViewCell.xcodeproj */;
+				},
+				{
+					ProductGroup = CEAB099B1B80E8B9002C57CE /* Products */;
+					ProjectRef = CEAB099A1B80E8B9002C57CE /* GCD.xcodeproj */;
+				},
+				{
+					ProductGroup = CE4804261B79CFE700CEEB6D /* Products */;
+					ProjectRef = CE4804251B79CFE700CEEB6D /* GestureRecognizer.xcodeproj */;
+				},
+				{
+					ProductGroup = CEF96AAC1B81F2B300E55FFA /* Products */;
+					ProjectRef = CEF96AAB1B81F2B300E55FFA /* loadFile.xcodeproj */;
+				},
+				{
+					ProductGroup = CE4804671B79E74D00CEEB6D /* Products */;
+					ProjectRef = CE4804661B79E74D00CEEB6D /* MotionEvent.xcodeproj */;
+				},
+				{
+					ProductGroup = CEF96A451B818BE300E55FFA /* Products */;
+					ProjectRef = CEF96A441B818BE300E55FFA /* NSCondition.xcodeproj */;
+				},
+				{
+					ProductGroup = CEAB09601B80DD74002C57CE /* Products */;
+					ProjectRef = CEAB095F1B80DD74002C57CE /* NSOperation.xcodeproj */;
+				},
+				{
+					ProductGroup = CEAB08EA1B805992002C57CE /* Products */;
+					ProjectRef = CEAB08E91B805992002C57CE /* NSThread.xcodeproj */;
+				},
+				{
+					ProductGroup = CEAB09251B80D05D002C57CE /* Products */;
+					ProjectRef = CEAB09241B80D05D002C57CE /* NSThread2.xcodeproj */;
+				},
+				{
+					ProductGroup = CED965CC1B8DCEAE00D80D76 /* Products */;
+					ProjectRef = CED965CB1B8DCEAE00D80D76 /* NSURLConnection.xcodeproj */;
+				},
+				{
+					ProductGroup = CE7A3D151B8561D900FC9E4A /* Products */;
+					ProjectRef = CE7A3D141B8561D900FC9E4A /* NSURLSession.xcodeproj */;
+				},
+				{
+					ProductGroup = CE4804AB1B79EF8100CEEB6D /* Products */;
+					ProjectRef = CE4804AA1B79EF8100CEEB6D /* Quartz2D.xcodeproj */;
+				},
+				{
+					ProductGroup = CEAB08291B7F7681002C57CE /* Products */;
+					ProjectRef = CEAB08281B7F7681002C57CE /* SnowAnimation.xcodeproj */;
+				},
+				{
+					ProductGroup = CE4803E61B79AA3F00CEEB6D /* Products */;
+					ProjectRef = CE4803E51B79AA3F00CEEB6D /* TouchEventController.xcodeproj */;
+				},
+				{
+					ProductGroup = CEAB08681B802DAA002C57CE /* Products */;
+					ProjectRef = CEAB08671B802DAA002C57CE /* TransitionAnimation.xcodeproj */;
+				},
+				{
+					ProductGroup = CED966391B8EA70400D80D76 /* Products */;
+					ProjectRef = CED966381B8EA70400D80D76 /* UIActivityIndicatorView.xcodeproj */;
+				},
+				{
+					ProductGroup = CE4803991B7842B300CEEB6D /* Products */;
+					ProjectRef = CE4803981B7842B300CEEB6D /* UIModalController.xcodeproj */;
+				},
+				{
+					ProductGroup = CECCEE411B779CF100C3C9F8 /* Products */;
+					ProjectRef = CECCEE401B779CF100C3C9F8 /* UINavigationController.xcodeproj */;
+				},
+				{
+					ProductGroup = CECCEE851B77A6D000C3C9F8 /* Products */;
+					ProjectRef = CECCEE841B77A6D000C3C9F8 /* UINavigationControllerWithStoryboard.xcodeproj */;
+				},
+				{
+					ProductGroup = CECCEDF31B7781B600C3C9F8 /* Products */;
+					ProjectRef = CECCEDF21B7781B600C3C9F8 /* UITabBarController.xcodeproj */;
+				},
+				{
+					ProductGroup = CE8856581B7328E900B883F0 /* Products */;
+					ProjectRef = CE8856571B7328E900B883F0 /* UITableView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CE8855B01B7072DA00B883F0 /* UIScrollView */,
+				CE8855C91B7072DA00B883F0 /* UIScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CE4803A21B7842B400CEEB6D /* UIModalController.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UIModalController.app;
+			remoteRef = CE4803A11B7842B400CEEB6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE4803A41B7842B400CEEB6D /* UIModalControllerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UIModalControllerTests.xctest;
+			remoteRef = CE4803A31B7842B400CEEB6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE4803EB1B79AA3F00CEEB6D /* TouchEventController.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TouchEventController.app;
+			remoteRef = CE4803EA1B79AA3F00CEEB6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE4803ED1B79AA3F00CEEB6D /* TouchEventControllerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TouchEventControllerTests.xctest;
+			remoteRef = CE4803EC1B79AA3F00CEEB6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE48042B1B79CFE800CEEB6D /* GestureRecognizer.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GestureRecognizer.app;
+			remoteRef = CE48042A1B79CFE800CEEB6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE48042D1B79CFE800CEEB6D /* GestureRecognizerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GestureRecognizerTests.xctest;
+			remoteRef = CE48042C1B79CFE800CEEB6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE48046C1B79E74E00CEEB6D /* MotionEvent.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MotionEvent.app;
+			remoteRef = CE48046B1B79E74E00CEEB6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE48046E1B79E74E00CEEB6D /* MotionEventTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MotionEventTests.xctest;
+			remoteRef = CE48046D1B79E74E00CEEB6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE4804B01B79EF8200CEEB6D /* Quartz2D.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Quartz2D.app;
+			remoteRef = CE4804AF1B79EF8200CEEB6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE4804B21B79EF8200CEEB6D /* Quartz2DTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Quartz2DTests.xctest;
+			remoteRef = CE4804B11B79EF8200CEEB6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE4804F01B7B42E300CEEB6D /* CoreImage.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CoreImage.app;
+			remoteRef = CE4804EF1B7B42E300CEEB6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE4804F21B7B42E300CEEB6D /* CoreImageTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CoreImageTests.xctest;
+			remoteRef = CE4804F11B7B42E300CEEB6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE7A3D381B8561D900FC9E4A /* NSURLSession.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = NSURLSession.app;
+			remoteRef = CE7A3D371B8561D900FC9E4A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE7A3D3A1B8561D900FC9E4A /* NSURLSessionTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NSURLSessionTests.xctest;
+			remoteRef = CE7A3D391B8561D900FC9E4A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE8856141B71E30800B883F0 /* Banner.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Banner.app;
+			remoteRef = CE8856131B71E30800B883F0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE8856161B71E30800B883F0 /* BannerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BannerTests.xctest;
+			remoteRef = CE8856151B71E30800B883F0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE88565D1B7328EA00B883F0 /* UITableView.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UITableView.app;
+			remoteRef = CE88565C1B7328EA00B883F0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE88565F1B7328EA00B883F0 /* UITableViewTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UITableViewTests.xctest;
+			remoteRef = CE88565E1B7328EA00B883F0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB07541B7F3E1D002C57CE /* CircleImage.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CircleImage.app;
+			remoteRef = CEAB07531B7F3E1D002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB07561B7F3E1D002C57CE /* CircleImageTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CircleImageTests.xctest;
+			remoteRef = CEAB07551B7F3E1D002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB07771B7F42D3002C57CE /* CALayer.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CALayer.app;
+			remoteRef = CEAB07761B7F42D3002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB07791B7F42D3002C57CE /* CALayerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CALayerTests.xctest;
+			remoteRef = CEAB07781B7F42D3002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB07B21B7F69E1002C57CE /* CustomLayer.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CustomLayer.app;
+			remoteRef = CEAB07B11B7F69E1002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB07B41B7F69E1002C57CE /* CustomLayerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CustomLayerTests.xctest;
+			remoteRef = CEAB07B31B7F69E1002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB082E1B7F7681002C57CE /* SnowAnimation.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SnowAnimation.app;
+			remoteRef = CEAB082D1B7F7681002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB08301B7F7681002C57CE /* SnowAnimationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SnowAnimationTests.xctest;
+			remoteRef = CEAB082F1B7F7681002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB086D1B802DAB002C57CE /* TransitionAnimation.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TransitionAnimation.app;
+			remoteRef = CEAB086C1B802DAB002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB086F1B802DAB002C57CE /* TransitionAnimationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TransitionAnimationTests.xctest;
+			remoteRef = CEAB086E1B802DAB002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB08B41B804CFF002C57CE /* BoundAnimation.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = BoundAnimation.app;
+			remoteRef = CEAB08B31B804CFF002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB08B61B804CFF002C57CE /* BoundAnimationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BoundAnimationTests.xctest;
+			remoteRef = CEAB08B51B804CFF002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB08EF1B805993002C57CE /* NSThread.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = NSThread.app;
+			remoteRef = CEAB08EE1B805993002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB08F11B805993002C57CE /* NSThreadTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NSThreadTests.xctest;
+			remoteRef = CEAB08F01B805993002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB092A1B80D05E002C57CE /* NSThread2.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = NSThread2.app;
+			remoteRef = CEAB09291B80D05E002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB092C1B80D05E002C57CE /* NSThread2Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NSThread2Tests.xctest;
+			remoteRef = CEAB092B1B80D05E002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB09651B80DD75002C57CE /* NSOperation.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = NSOperation.app;
+			remoteRef = CEAB09641B80DD75002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB09671B80DD75002C57CE /* NSOperationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NSOperationTests.xctest;
+			remoteRef = CEAB09661B80DD75002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB09A01B80E8BA002C57CE /* GCD.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GCD.app;
+			remoteRef = CEAB099F1B80E8BA002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEAB09A21B80E8BA002C57CE /* GCDTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GCDTests.xctest;
+			remoteRef = CEAB09A11B80E8BA002C57CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CECCED751B76EC7800C3C9F8 /* CustomTableViewCell.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CustomTableViewCell.app;
+			remoteRef = CECCED741B76EC7800C3C9F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CECCED771B76EC7800C3C9F8 /* CustomTableViewCellTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CustomTableViewCellTests.xctest;
+			remoteRef = CECCED761B76EC7800C3C9F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CECCEDF81B7781B700C3C9F8 /* UITabBarController.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UITabBarController.app;
+			remoteRef = CECCEDF71B7781B700C3C9F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CECCEDFA1B7781B700C3C9F8 /* UITabBarControllerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UITabBarControllerTests.xctest;
+			remoteRef = CECCEDF91B7781B700C3C9F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CECCEE461B779CF200C3C9F8 /* UINavigationController.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UINavigationController.app;
+			remoteRef = CECCEE451B779CF200C3C9F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CECCEE481B779CF200C3C9F8 /* UINavigationControllerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UINavigationControllerTests.xctest;
+			remoteRef = CECCEE471B779CF200C3C9F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CECCEE8A1B77A6D100C3C9F8 /* UINavigationControllerWithStoryboard.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UINavigationControllerWithStoryboard.app;
+			remoteRef = CECCEE891B77A6D100C3C9F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CECCEE8C1B77A6D100C3C9F8 /* UINavigationControllerWithStoryboardTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UINavigationControllerWithStoryboardTests.xctest;
+			remoteRef = CECCEE8B1B77A6D100C3C9F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CED965EF1B8DCEAF00D80D76 /* NSURLConnection.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = NSURLConnection.app;
+			remoteRef = CED965EE1B8DCEAF00D80D76 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CED965F11B8DCEAF00D80D76 /* NSURLConnectionTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NSURLConnectionTests.xctest;
+			remoteRef = CED965F01B8DCEAF00D80D76 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CED9663E1B8EA70500D80D76 /* UIActivityIndicatorView.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UIActivityIndicatorView.app;
+			remoteRef = CED9663D1B8EA70500D80D76 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CED966401B8EA70500D80D76 /* UIActivityIndicatorViewTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UIActivityIndicatorViewTests.xctest;
+			remoteRef = CED9663F1B8EA70500D80D76 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEF96A5E1B818BE400E55FFA /* NSCondition.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = NSCondition.app;
+			remoteRef = CEF96A5D1B818BE400E55FFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEF96A601B818BE400E55FFA /* NSConditionTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NSConditionTests.xctest;
+			remoteRef = CEF96A5F1B818BE400E55FFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEF96AB11B81F2B400E55FFA /* loadFile.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = loadFile.app;
+			remoteRef = CEF96AB01B81F2B400E55FFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEF96AB31B81F2B400E55FFA /* loadFileTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = loadFileTests.xctest;
+			remoteRef = CEF96AB21B81F2B400E55FFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8855AF1B7072DA00B883F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8855C01B7072DA00B883F0 /* Main.storyboard in Resources */,
+				CE8855DB1B70748200B883F0 /* image01.jpg in Resources */,
+				CE8855C51B7072DA00B883F0 /* LaunchScreen.xib in Resources */,
+				CE8855C21B7072DA00B883F0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8855C81B7072DA00B883F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8855AD1B7072DA00B883F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8855BD1B7072DA00B883F0 /* ViewController.m in Sources */,
+				CE8855BA1B7072DA00B883F0 /* AppDelegate.m in Sources */,
+				CE8855B71B7072DA00B883F0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8855C61B7072DA00B883F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8855D11B7072DA00B883F0 /* UIScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE8855CC1B7072DA00B883F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE8855B01B7072DA00B883F0 /* UIScrollView */;
+			targetProxy = CE8855CB1B7072DA00B883F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE8855BE1B7072DA00B883F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8855BF1B7072DA00B883F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE8855C31B7072DA00B883F0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8855C41B7072DA00B883F0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE8855D21B7072DA00B883F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8855D31B7072DA00B883F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8855D51B7072DA00B883F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE8855D61B7072DA00B883F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE8855D81B7072DA00B883F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollView.app/UIScrollView";
+			};
+			name = Debug;
+		};
+		CE8855D91B7072DA00B883F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollView.app/UIScrollView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8855AC1B7072DA00B883F0 /* Build configuration list for PBXProject "UIScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8855D21B7072DA00B883F0 /* Debug */,
+				CE8855D31B7072DA00B883F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8855D41B7072DA00B883F0 /* Build configuration list for PBXNativeTarget "UIScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8855D51B7072DA00B883F0 /* Debug */,
+				CE8855D61B7072DA00B883F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8855D71B7072DA00B883F0 /* Build configuration list for PBXNativeTarget "UIScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8855D81B7072DA00B883F0 /* Debug */,
+				CE8855D91B7072DA00B883F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8855A91B7072DA00B883F0 /* Project object */;
+}

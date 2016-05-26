@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEAB08051B7F7680002C57CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB08041B7F7680002C57CE /* main.m */; };
+		CEAB08081B7F7680002C57CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB08071B7F7680002C57CE /* AppDelegate.m */; };
+		CEAB080B1B7F7680002C57CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB080A1B7F7680002C57CE /* ViewController.m */; };
+		CEAB080E1B7F7680002C57CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAB080C1B7F7680002C57CE /* Main.storyboard */; };
+		CEAB08101B7F7680002C57CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAB080F1B7F7680002C57CE /* Images.xcassets */; };
+		CEAB08131B7F7680002C57CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAB08111B7F7680002C57CE /* LaunchScreen.xib */; };
+		CEAB081F1B7F7681002C57CE /* SnowAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB081E1B7F7681002C57CE /* SnowAnimationTests.m */; };
+		CEAB08321B7F8897002C57CE /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEAB08311B7F8897002C57CE /* back.jpg */; };
+		CEAB08341B7F8AAE002C57CE /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAB08331B7F8AAE002C57CE /* snow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEAB08191B7F7681002C57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB07F71B7F7680002C57CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEAB07FE1B7F7680002C57CE;
+			remoteInfo = SnowAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEAB07FF1B7F7680002C57CE /* SnowAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAB08031B7F7680002C57CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAB08041B7F7680002C57CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEAB08061B7F7680002C57CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEAB08071B7F7680002C57CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEAB08091B7F7680002C57CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEAB080A1B7F7680002C57CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEAB080D1B7F7680002C57CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEAB080F1B7F7680002C57CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEAB08121B7F7680002C57CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEAB08181B7F7681002C57CE /* SnowAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAB081D1B7F7681002C57CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAB081E1B7F7681002C57CE /* SnowAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowAnimationTests.m; sourceTree = "<group>"; };
+		CEAB08311B7F8897002C57CE /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		CEAB08331B7F8AAE002C57CE /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEAB07FC1B7F7680002C57CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAB08151B7F7681002C57CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEAB07F61B7F7680002C57CE = {
+			isa = PBXGroup;
+			children = (
+				CEAB08011B7F7680002C57CE /* SnowAnimation */,
+				CEAB081B1B7F7681002C57CE /* SnowAnimationTests */,
+				CEAB08001B7F7680002C57CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEAB08001B7F7680002C57CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB07FF1B7F7680002C57CE /* SnowAnimation.app */,
+				CEAB08181B7F7681002C57CE /* SnowAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAB08011B7F7680002C57CE /* SnowAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB08331B7F8AAE002C57CE /* snow.png */,
+				CEAB08311B7F8897002C57CE /* back.jpg */,
+				CEAB08061B7F7680002C57CE /* AppDelegate.h */,
+				CEAB08071B7F7680002C57CE /* AppDelegate.m */,
+				CEAB08091B7F7680002C57CE /* ViewController.h */,
+				CEAB080A1B7F7680002C57CE /* ViewController.m */,
+				CEAB080C1B7F7680002C57CE /* Main.storyboard */,
+				CEAB080F1B7F7680002C57CE /* Images.xcassets */,
+				CEAB08111B7F7680002C57CE /* LaunchScreen.xib */,
+				CEAB08021B7F7680002C57CE /* Supporting Files */,
+			);
+			path = SnowAnimation;
+			sourceTree = "<group>";
+		};
+		CEAB08021B7F7680002C57CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB08031B7F7680002C57CE /* Info.plist */,
+				CEAB08041B7F7680002C57CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEAB081B1B7F7681002C57CE /* SnowAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB081E1B7F7681002C57CE /* SnowAnimationTests.m */,
+				CEAB081C1B7F7681002C57CE /* Supporting Files */,
+			);
+			path = SnowAnimationTests;
+			sourceTree = "<group>";
+		};
+		CEAB081C1B7F7681002C57CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB081D1B7F7681002C57CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEAB07FE1B7F7680002C57CE /* SnowAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAB08221B7F7681002C57CE /* Build configuration list for PBXNativeTarget "SnowAnimation" */;
+			buildPhases = (
+				CEAB07FB1B7F7680002C57CE /* Sources */,
+				CEAB07FC1B7F7680002C57CE /* Frameworks */,
+				CEAB07FD1B7F7680002C57CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowAnimation;
+			productName = SnowAnimation;
+			productReference = CEAB07FF1B7F7680002C57CE /* SnowAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEAB08171B7F7681002C57CE /* SnowAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAB08251B7F7681002C57CE /* Build configuration list for PBXNativeTarget "SnowAnimationTests" */;
+			buildPhases = (
+				CEAB08141B7F7681002C57CE /* Sources */,
+				CEAB08151B7F7681002C57CE /* Frameworks */,
+				CEAB08161B7F7681002C57CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEAB081A1B7F7681002C57CE /* PBXTargetDependency */,
+			);
+			name = SnowAnimationTests;
+			productName = SnowAnimationTests;
+			productReference = CEAB08181B7F7681002C57CE /* SnowAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEAB07F71B7F7680002C57CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = hesc;
+				TargetAttributes = {
+					CEAB07FE1B7F7680002C57CE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CEAB08171B7F7681002C57CE = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CEAB07FE1B7F7680002C57CE;
+					};
+				};
+			};
+			buildConfigurationList = CEAB07FA1B7F7680002C57CE /* Build configuration list for PBXProject "SnowAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEAB07F61B7F7680002C57CE;
+			productRefGroup = CEAB08001B7F7680002C57CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEAB07FE1B7F7680002C57CE /* SnowAnimation */,
+				CEAB08171B7F7681002C57CE /* SnowAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEAB07FD1B7F7680002C57CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAB08341B7F8AAE002C57CE /* snow.png in Resources */,
+				CEAB080E1B7F7680002C57CE /* Main.storyboard in Resources */,
+				CEAB08321B7F8897002C57CE /* back.jpg in Resources */,
+				CEAB08131B7F7680002C57CE /* LaunchScreen.xib in Resources */,
+				CEAB08101B7F7680002C57CE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAB08161B7F7681002C57CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEAB07FB1B7F7680002C57CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAB080B1B7F7680002C57CE /* ViewController.m in Sources */,
+				CEAB08081B7F7680002C57CE /* AppDelegate.m in Sources */,
+				CEAB08051B7F7680002C57CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAB08141B7F7681002C57CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAB081F1B7F7681002C57CE /* SnowAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEAB081A1B7F7681002C57CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEAB07FE1B7F7680002C57CE /* SnowAnimation */;
+			targetProxy = CEAB08191B7F7681002C57CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEAB080C1B7F7680002C57CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAB080D1B7F7680002C57CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEAB08111B7F7680002C57CE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAB08121B7F7680002C57CE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEAB08201B7F7681002C57CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEAB08211B7F7681002C57CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEAB08231B7F7681002C57CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnowAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEAB08241B7F7681002C57CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnowAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEAB08261B7F7681002C57CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnowAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowAnimation.app/SnowAnimation";
+			};
+			name = Debug;
+		};
+		CEAB08271B7F7681002C57CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnowAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowAnimation.app/SnowAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEAB07FA1B7F7680002C57CE /* Build configuration list for PBXProject "SnowAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAB08201B7F7681002C57CE /* Debug */,
+				CEAB08211B7F7681002C57CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAB08221B7F7681002C57CE /* Build configuration list for PBXNativeTarget "SnowAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAB08231B7F7681002C57CE /* Debug */,
+				CEAB08241B7F7681002C57CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEAB08251B7F7681002C57CE /* Build configuration list for PBXNativeTarget "SnowAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAB08261B7F7681002C57CE /* Debug */,
+				CEAB08271B7F7681002C57CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEAB07F71B7F7680002C57CE /* Project object */;
+}
